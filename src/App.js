@@ -1,4 +1,5 @@
 import './App.css';
+import { BodyWrapper, MainWrapper } from "./components/ui/StyledComponents"
 import Navbar from './components/navbar/Navbar';
 import Calculator from './apps/calculator/Calculator';
 
@@ -6,9 +7,13 @@ import Calculator from './apps/calculator/Calculator';
 
 function App() {
   return (
-    <div className="body">
-      <Navbar/>
-    </div>
+    <BodyWrapper>
+      <Navbar />
+      <MainWrapper>
+        <Calculator />
+      </MainWrapper>
+    </BodyWrapper>
+
   );
 }
 
