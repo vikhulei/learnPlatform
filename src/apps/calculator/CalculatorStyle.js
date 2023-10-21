@@ -1,17 +1,21 @@
 import styled from "styled-components"
 
 const Frame = styled.div`
-    
-    width: 200px;
-    height: 400px;
-    background-color: red;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 220px;
+    height: 350px;
+    background-color: #595959;
+    padding: 5px;
 `
-const Heading = styled.h1`
+const Screen = styled.div`
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
     color: white;
+    text-align: right;
 `
 
-export {Frame, Heading}
+export {Frame, Screen}

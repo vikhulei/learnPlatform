@@ -1,11 +1,13 @@
-import {Frame, Heading} from "./CalculatorStyle"
+import { Frame, Screen } from "./CalculatorStyle"
 
 const Calculator = () => {
     return (
         <Frame>
-            <Heading>Calculator here</Heading>
+            <Screen>
+                <p>0</p>
+            </Screen>
         </Frame>
     )
-} 
+}
 
 export default Calculator
