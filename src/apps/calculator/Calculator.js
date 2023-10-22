@@ -1,4 +1,4 @@
-import { Frame, Output, Result, Calculation, ButtonsWraper, Button, BlackButton } from "./CalculatorStyle"
+import { Frame, Output, Result, Calculation, ButtonsWraper, Button, BlackButton, ButtonEquals } from "./CalculatorStyle"
 
 const Calculator = () => {
     return (
@@ -31,17 +31,15 @@ const Calculator = () => {
                 <Button>5</Button>
                 <Button>6</Button>
                 <Button>×</Button>
-                <Button></Button>
+                <ButtonEquals>=</ButtonEquals>
                 <Button>1</Button>
                 <Button>2</Button>
                 <Button>3</Button>
                 <Button>-</Button>
-                <Button></Button>
                 <Button>E</Button>
                 <Button>0</Button>
                 <Button>.</Button>
                 <Button>+</Button>
-                <Button></Button>
             </ButtonsWraper>
         </Frame>
     )
