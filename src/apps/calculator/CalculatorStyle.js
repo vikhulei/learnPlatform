@@ -4,7 +4,7 @@ import { css } from "styled-components"
 const Frame = styled.div`
     position: relative;
     width: 220px;
-    height: 350px;
+    height: 320px;
     background-color: #595959;
     padding: 5px;
     display: flex;
@@ -29,7 +29,7 @@ const Result = styled.div`
     align-items: center;
     justify-content: right;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 `
 
 const Calculation = styled(Result)`
