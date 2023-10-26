@@ -1,5 +1,5 @@
 import './App.css';
-import { BodyWrapper, MainWrapper } from "./components/ui/StyledComponents"
+import { BodyWrapper, NavbarWrapper, MainWrapper } from "./components/ui/StyledComponents"
 import Navbar from './components/navbar/Navbar';
 import Calculator from './apps/calculator/Calculator';
 
