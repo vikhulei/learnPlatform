@@ -26,7 +26,9 @@ const Calculator = () => {
     }
     
     const backSpace = () => {
+        if(calculation !== 0) {
         setCalculation(calculation.slice(0, -1))
+        }
     }
 
     return (
