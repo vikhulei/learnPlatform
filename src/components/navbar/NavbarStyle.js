@@ -28,7 +28,17 @@ const MenuWrapper = styled.div`
 `
 
 const MenuItem = styled.div`
+    padding: 20px 15px;
+    border-radius: 5px;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+        background-color: darkgreen;
+    }
+    &:active {
+        color: black;
+    }
 `
 
 export {Bar, Title, MenuWrapper, MenuItem}
