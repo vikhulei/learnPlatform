@@ -5,9 +5,9 @@ const Navbar = () => {
         <Bar>
             <Title>My Learning Platform</Title>
             <MenuWrapper>
-                <MenuItem>Home</MenuItem>
-                <MenuItem>About</MenuItem>
-                <MenuItem>Contacts</MenuItem>
+                <MenuItem to="/home">Home</MenuItem>
+                <MenuItem to="/about">About</MenuItem>
+                <MenuItem to="/contacts">Contacts</MenuItem>
             </MenuWrapper>
         </Bar>
     )

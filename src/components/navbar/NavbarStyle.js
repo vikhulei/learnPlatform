@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Bar = styled.div`
     position: fixed;
@@ -28,7 +29,9 @@ const MenuWrapper = styled.div`
     align-items: center;
 `
 
-const MenuItem = styled.div`
+const MenuItem = styled(Link)`
+    text-decoration: none;
+    font-size: 1.2rem;
     padding: 20px 15px;
     border-radius: 5px;
     color: white;
