@@ -13,6 +13,7 @@ const NavbarWrapper = styled.div`
 const MainWrapper = styled.div`
     position: relative;
     background-color: #f6f0ed;
+    background-color: lightgray;;
     height: 100vh;
     margin-top: 80px;
     padding: 50px 200px;;
