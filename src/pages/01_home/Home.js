@@ -1,9 +1,14 @@
-import { MainWrapper } from "./HomeStyle";
+import { MainWrapper, LeftWrapper, RightWrapper } from "./HomeStyle";
 
 const Home = () => {
     return (
         <MainWrapper>
-            I am Home
+            <LeftWrapper>
+                Left
+            </LeftWrapper>
+            <RightWrapper>
+                Right
+            </RightWrapper>
         </MainWrapper>
     )
 }

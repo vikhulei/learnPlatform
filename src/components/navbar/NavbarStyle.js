@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { heights } from "../ui/Measures"
+import { measurements } from "../ui/Measurements"
 import { colors } from "../ui/Colors";
 
-const { navbarHeight } = heights
+const { navbarHeight, mainLeftRightPadding } = measurements
 const { darkgreen } = colors
 
 const Bar = styled.div`
@@ -11,7 +11,7 @@ const Bar = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0 200px;
+    padding: 0 ${mainLeftRightPadding};
     height: ${navbarHeight};
     background-color: ${darkgreen};
     display: flex;
