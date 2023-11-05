@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { heights } from "../ui/Measures"
+import { colors } from "../ui/Colors";
+
+const { navbarHeight } = heights
+const { darkgreen } = colors
 
 const Bar = styled.div`
     position: fixed;
@@ -7,8 +12,8 @@ const Bar = styled.div`
     left: 0;
     width: 100%;
     padding: 0 200px;
-    height: 80px;
-    background-color: green;
+    height: ${navbarHeight};
+    background-color: ${darkgreen};
     display: flex;
     justify-content: space-between;
     align-items: center;
