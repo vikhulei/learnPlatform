@@ -4,7 +4,7 @@ import { measurements } from "../ui/Measurements"
 import { colors } from "../ui/Colors";
 
 const { navbarHeight, mainLeftRightPadding } = measurements
-const { navbarbackground, menuhover } = colors
+const { red, darkred } = colors
 
 const Bar = styled.div`
     position: fixed;
@@ -13,7 +13,7 @@ const Bar = styled.div`
     width: 100%;
     padding: 0 ${mainLeftRightPadding};
     height: ${navbarHeight};
-    background-color: ${navbarbackground};
+    background-color: ${red};
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ const MenuItem = styled(Link)`
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     &:hover {
-        background-color: ${menuhover};
+        background-color: ${darkred};
     }
     &:active {
         color: black;

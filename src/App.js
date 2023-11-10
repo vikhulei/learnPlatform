@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './pages/01_home/Home';
 import About from './pages/02_about/About';
 import Contacts from './pages/03_contacts/Contacts';
+import Footer from './components/footer/Footer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contacts" element={<Contacts />} />
       </Routes>
+      <Footer/>
       </Router>
     </BodyWrapper>
   );

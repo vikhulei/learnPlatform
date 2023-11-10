@@ -4,7 +4,7 @@ import { measurements } from "../../components/ui/Measurements"
 import { colors } from "../../components/ui/Colors"
 
 const { mainLeftRightPadding, mainTopPadding } = measurements
-const { background, linecolor, sidepanel, light, backgrounddark, backgroundlight } = colors
+const { linecolor, lightred, gray, lightgray, darkgray } = colors
 
 const paddingBoxes = "30px"
 
@@ -70,7 +70,7 @@ const DataBox = styled.div`
     font-weight: 200;
     padding: ${paddingBoxes};
     padding-top: 0;
-    background-color: ${backgroundlight};
+    background-color: ${lightgray};
     border: solid 1px ${linecolor};
     border-radius: 10px;
 `
@@ -89,11 +89,11 @@ const SmallBox = styled.div`
     height: 120px;
     display: flex;
     flex-direction: row-reverse;
-    border: solid 1px ${background};
-    background-color: ${backgroundlight};
+    border: solid 1px ${gray};
+    background-color: ${lightgray};
     &:hover {
         cursor: pointer;
-        background-color: ${backgrounddark};
+        background-color: ${darkgray};
     }
     &:active {
         transition: ease-in-out;
@@ -104,13 +104,13 @@ const SmallBox = styled.div`
 const HeaderSmallBox = styled.div`
     width: 40px;
     height: 100%;
-    background-color: ${sidepanel};
+    background-color: ${lightred};
     color: black;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 2px ${backgrounddark};
+    box-shadow: 0px 2px ${darkgray};
 `
 const BodySmallBox = styled.div`
     width: 100%;
@@ -118,12 +118,7 @@ const BodySmallBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 2px ${backgrounddark};
-`
-
-const Calculator = styled(CalculateIcon)`
-    transform: scale(2);
-    color: ${light};
+    box-shadow: 0px 2px ${darkgray};
 `
 
 const Icon = styled.img`
@@ -131,4 +126,4 @@ const Icon = styled.img`
 `
 
 
-export { MainWrapper, LeftWrapper, RightWrapper, Title, TopBox, BottomBox, DataBox, Bold, SmallBox, HeadingDataBox, HeaderSmallBox, BodySmallBox, Calculator, Icon  }
+export { MainWrapper, LeftWrapper, RightWrapper, Title, TopBox, BottomBox, DataBox, Bold, SmallBox, HeadingDataBox, HeaderSmallBox, BodySmallBox, Icon  }

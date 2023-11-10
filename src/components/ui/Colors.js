@@ -1,9 +1,10 @@
 export const colors = {
-    navbarbackground: "#AC011C",
-    menuhover: "#2D0001",
-    background: "#f7f2ed",
-    backgroundlight: "#f2f2f2",
-    backgrounddark: "#a6a6a6",
+    red: "#AC011C",
+    lightred: "#ff6685",
+    darkred: "#4d0001",
+    gray: "#f7f2ed",
+    lightgray: "#f2f2f2",
+    darkgray: "#a6a6a6",
     linecolor: "#bfbfbf",
-    sidepanel: "#ff6685",
+
 }
