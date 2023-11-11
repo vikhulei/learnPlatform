@@ -24,7 +24,7 @@ const Home = () => {
                         <Bold>Noughts and Crosses</Bold> - standard calculator<br/>
                         <Bold>Movies</Bold> - standard calculator<br/>
                         <Bold>FlashCards</Bold> - standard calculator<br/>
-                        <Bold>Quotes API</Bold> - standard calculator<br/>
+                        <Bold>Random Quotes</Bold> - fetches data from API<br/>
                     </DataBox>
                     <DataBox>
                     <HeadingDataBox>TechStack:</HeadingDataBox>
