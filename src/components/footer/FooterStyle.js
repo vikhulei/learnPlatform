@@ -10,6 +10,7 @@ const Wrapper = styled.div`
     poistion: relative;
     background-color: ${darkred};
     color: ${darkgray};
+    color: white;
 `
 
 const UpperWrapper = styled.div`
@@ -21,11 +22,17 @@ const UpperWrapper = styled.div`
 const MiddleWrapper = styled.div`
     padding: ${paddingTopBottom} clamp(${mainLeftRightPaddingMax}, 5%, ${mainLeftRightPaddingMin});
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
+    // justify-content: space-between;
 `
 
 const TextBox = styled.div`
+    font-size: 1.2rem;
+    line-height: 1.5;
+`
 
+const Bold = styled.span`
+    font-weight: 700;
 `
 
 const BottomWrapper = styled.div`
@@ -41,4 +48,4 @@ const Logo = styled.img`
 
 
 
-export { Wrapper, UpperWrapper, MiddleWrapper, TextBox, BottomWrapper, Logo  }
+export { Wrapper, UpperWrapper, MiddleWrapper, TextBox, Bold, BottomWrapper, Logo  }

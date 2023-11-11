@@ -1,4 +1,4 @@
-import { Wrapper, UpperWrapper, MiddleWrapper, TextBox, BottomWrapper, Logo } from "./FooterStyle"
+import { Wrapper, UpperWrapper, MiddleWrapper, TextBox, Bold, BottomWrapper, Logo } from "./FooterStyle"
 import logo from "../../assets/logo.png"
 
 const Footer = () => {
@@ -9,27 +9,26 @@ const Footer = () => {
             </UpperWrapper>
             <MiddleWrapper>
                 <TextBox>
-                    <p><b>Products</b></p>
-                    <p>What we do</p>
-                    <p>What we do</p>
-                    <p>What we do</p>
+                    <p><Bold>Products and Services</Bold></p>
+                    <p>WEB sites</p>
+                    <p>E-commerce apps</p>
+                    <p>E-learning platforms</p>
                 </TextBox>
                 <TextBox>
-                    <p><b>Products</b></p>
-                    <p>What we do</p>
-                    <p>What we do</p>
-                    <p>What we do</p>
+                    <p><Bold>Learning Bank</Bold></p>
+                    <p>JS Institute (https://edube.org/)</p>
+                    <p>MDN Web docs (https://developer.mozilla.org/)</p>
+                    <p>Website Templates (https://themeforest.net/)</p>
                 </TextBox>
                 <TextBox>
-                    <p><b>Products</b></p>
-                    <p>What we do</p>
-                    <p>What we do</p>
-                    <p>What we do</p>
+                    <p><Bold>Get in Touch</Bold></p>
+                    <p>vikhulei@gmail.com</p>
+                    <p>07706 204681</p>
                 </TextBox>
                 <TextBox>F T Y I L</TextBox>
             </MiddleWrapper>
             <BottomWrapper>
-                @ Viktor Hulei 2023
+            &copy; Viktor Hulei 2023
             </BottomWrapper>
         </Wrapper>
     )

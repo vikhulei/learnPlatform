@@ -28,13 +28,11 @@ const Home = () => {
                     </DataBox>
                     <DataBox>
                     <HeadingDataBox>TechStack:</HeadingDataBox>
-                        <Bold>Calculator</Bold> - standard calculator<br/>
-                        <Bold>ToDo List</Bold> - standard calculator<br/>
-                        <Bold>Quiz</Bold> - standard calculator<br/>
-                        <Bold>Noughts and Crosses</Bold> - standard calculator<br/>
-                        <Bold>Movies</Bold> - standard calculator<br/>
-                        <Bold>FlashCards</Bold> - standard calculator<br/>
-                        <Bold>Quotes API</Bold> - standard calculator<br/>
+                        <Bold>React</Bold> - standard calculator<br/>
+                        <Bold>React Router</Bold> - standard calculator<br/>
+                        <Bold>Redux</Bold> - standard calculator<br/>
+                        <Bold>Styled Components</Bold> - standard calculator<br/>
+                        <Bold>Figma</Bold> - standard calculator<br/>
                     </DataBox>
                 </BottomBox>
             </LeftWrapper>
