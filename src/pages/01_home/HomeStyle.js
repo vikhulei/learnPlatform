@@ -3,23 +3,22 @@ import CalculateIcon from '@mui/icons-material/Calculate';
 import { measurements } from "../../components/ui/Measurements"
 import { colors } from "../../components/ui/Colors"
 
-const { mainLeftRightPadding, mainTopPadding } = measurements
+const { mainLeftRightPaddingMax, mainLeftRightPaddingMin, mainTopPadding } = measurements
 const { linecolor, lightred, gray, lightgray, darkgray } = colors
 
 const paddingBoxes = "30px"
 
 const MainWrapper = styled.div`
     position: relative;
-    height: 100vh;
     margin-top: 80px;
-    padding: ${mainTopPadding} ${mainLeftRightPadding} 0;
+    padding: ${mainTopPadding} clamp(${mainLeftRightPaddingMax}, 5%, ${mainLeftRightPaddingMin}) 0;
+    padding: ${mainTopPadding} max(100px, 10vw);
     display: flex;
     justify-content: space-between;
 `
 
 const LeftWrapper = styled.div`
     width: 700px;
-    height: 600px;
     display: flex;
     flex-direction: column;
 `

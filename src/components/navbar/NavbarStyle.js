@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { measurements } from "../ui/Measurements"
 import { colors } from "../ui/Colors";
 
-const { navbarHeight, mainLeftRightPadding } = measurements
+const { navbarHeight, mainLeftRightPaddingMax, mainLeftRightPaddingMin, } = measurements
 const { red, darkred } = colors
 
 const Bar = styled.div`
@@ -11,7 +11,7 @@ const Bar = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0 ${mainLeftRightPadding};
+    padding: 0 clamp(${mainLeftRightPaddingMax}, 5%, ${mainLeftRightPaddingMin});
     height: ${navbarHeight};
     background-color: ${red};
     display: flex;
