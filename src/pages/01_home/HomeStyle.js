@@ -4,7 +4,7 @@ import { measurements } from "../../components/ui/Measurements"
 import { colors } from "../../components/ui/Colors"
 
 const { mainLeftRightPaddingMax, mainLeftRightPaddingMin, mainTopPadding } = measurements
-const { linecolor, lightred, gray, lightgray, darkgray } = colors
+const { linecolor, lightred, gray, lightivory, ivory } = colors
 
 const paddingBoxes = "30px"
 
@@ -69,7 +69,7 @@ const DataBox = styled.div`
     font-weight: 200;
     padding: ${paddingBoxes};
     padding-top: 0;
-    background-color: ${lightgray};
+    background-color: ${lightivory};
     border: solid 1px ${linecolor};
     border-radius: 10px;
 `
@@ -89,10 +89,10 @@ const SmallBox = styled.div`
     display: flex;
     flex-direction: row-reverse;
     border: solid 1px ${gray};
-    background-color: ${lightgray};
+    background-color: ${lightivory};
     &:hover {
         cursor: pointer;
-        background-color: ${darkgray};
+        background-color: ${ivory};
     }
     &:active {
         transition: ease-in-out;
@@ -109,7 +109,7 @@ const HeaderSmallBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 2px ${darkgray};
+    box-shadow: 0px 2px ${ivory};
 `
 const BodySmallBox = styled.div`
     width: 100%;
@@ -117,7 +117,7 @@ const BodySmallBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 2px ${darkgray};
+    box-shadow: 0px 2px ${ivory};
 `
 
 const Icon = styled.img`

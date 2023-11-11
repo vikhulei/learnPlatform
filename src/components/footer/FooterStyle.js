@@ -2,13 +2,13 @@ import styled from "styled-components"
 import { colors } from "../ui/Colors"
 import { measurements } from "../ui/Measurements"
 
-const { darkred, darkgray } = colors
+const { darkred, darkgray, darkivory } = colors
 const { mainLeftRightPaddingMax, mainLeftRightPaddingMin } = measurements
 const paddingTopBottom = "30px"
 
 const Wrapper = styled.div`
     poistion: relative;
-    background-color: ${darkred};
+    background-color: ${darkivory};
     color: ${darkgray};
     color: white;
 `
