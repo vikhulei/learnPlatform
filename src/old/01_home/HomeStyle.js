@@ -4,7 +4,7 @@ import { measurements } from "../../components/ui/Measurements"
 import { colors } from "../../components/ui/Colors"
 
 const { mainLeftRightPaddingMax, mainLeftRightPaddingMin, mainTopPadding } = measurements
-const { linecolor, lightred, gray, lightivory, ivory } = colors
+const { lightgray, linecolor, red, lightred, gray, lightivory, ivory } = colors
 
 const paddingBoxes = "30px"
 
@@ -13,6 +13,7 @@ const MainWrapper = styled.div`
     margin-top: 80px;
     padding: ${mainTopPadding} clamp(${mainLeftRightPaddingMax}, 5%, ${mainLeftRightPaddingMin}) 0;
     padding: ${mainTopPadding} max(100px, 10vw);
+    background-color: ${lightgray};
     display: flex;
     justify-content: space-between;
 `
@@ -90,12 +91,12 @@ const SmallBox = styled.div`
     flex-direction: row-reverse;
     border: solid 1px ${gray};
     background-color: ${lightivory};
+    transition: transform 50ms ease-in-out;
     &:hover {
         cursor: pointer;
         background-color: ${ivory};
     }
     &:active {
-        transition: ease-in-out;
         transform: translate(1px, 3px);
     }
 `
@@ -104,6 +105,7 @@ const HeaderSmallBox = styled.div`
     width: 40px;
     height: 100%;
     background-color: ${lightred};
+    background-color: ${red};
     color: black;
     font-size: 1.2rem;
     display: flex;

@@ -22,7 +22,7 @@ const UpperWrapper = styled.div`
 const MiddleWrapper = styled.div`
     padding: ${paddingTopBottom} clamp(${mainLeftRightPaddingMax}, 5%, ${mainLeftRightPaddingMin});
     display: flex;
-    gap: 100px;
+    gap: 120px;
     // justify-content: space-between;
 `
 

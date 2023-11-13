@@ -9,16 +9,16 @@ const Footer = () => {
             </UpperWrapper>
             <MiddleWrapper>
                 <TextBox>
-                    <p><Bold>Products and Services</Bold></p>
+                    <p><Bold>Learning to Build</Bold></p>
                     <p>WEB sites</p>
                     <p>E-commerce apps</p>
                     <p>E-learning platforms</p>
                 </TextBox>
                 <TextBox>
-                    <p><Bold>Learning Bank</Bold></p>
-                    <p>JS Institute (https://edube.org/)</p>
-                    <p>MDN Web docs (https://developer.mozilla.org/)</p>
-                    <p>Website Templates (https://themeforest.net/)</p>
+                    <p><Bold>Knowledge Base</Bold></p>
+                    <p>JS Institute (https://edube.org)</p>
+                    <p>MDN Web docs (https://developer.mozilla.org)</p>
+                    <p>Website Templates (https://themeforest.net)</p>
                 </TextBox>
                 <TextBox>
                     <p><Bold>Get in Touch</Bold></p>
