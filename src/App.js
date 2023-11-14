@@ -4,8 +4,8 @@ import { BodyWrapper } from "./components/ui/StyledComponents"
 import Navbar from './components/navbar/Navbar';
 // import Home from './pages/01_home/Home';
 import Home from './sections/01_home/Home';
-import About from './pages/02_about/About';
-import Contacts from './pages/03_contacts/Contacts';
+import About from './old/02_about/About';
+import Contacts from './old/03_contacts/Contacts';
 import Footer from './components/footer/Footer';
 
 
