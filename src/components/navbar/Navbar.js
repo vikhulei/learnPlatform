@@ -1,5 +1,4 @@
-import  {Bar, Title, MenuWrapper, MenuItem} from "./NavbarStyle"
-
+import  {Bar, Title, MenuWrapper } from "./NavbarStyle"
 const Navbar = () => {
     return (
         <Bar>

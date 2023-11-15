@@ -50,4 +50,4 @@ const MenuItem = styled(Link)`
     }
 `
 
-export {Bar, Title, MenuWrapper, MenuItem}
+export {Bar, Title, MenuWrapper, MenuItem }
