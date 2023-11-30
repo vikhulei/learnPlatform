@@ -33,16 +33,19 @@ const MenuWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
 `
-
-const MenuItem = styled(Link)`
+const MenuItem = styled.a`
+    text-align: left;
     text-decoration: none;
+    width: 20px;
     font-size: 1.2rem;
-    padding: 20px 15px;
-    border-radius: 5px;
+    padding: 20px 15px 20px -10px;
+    // border-radius: 5px;
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    border: solid green 3px;
+    transition: border-bottom 0.4s ease-in-out;
     &:hover {
+        border-bottom: solid white 3px;
         background-color: ${darkred};
     }
     &:active {
@@ -51,3 +54,19 @@ const MenuItem = styled(Link)`
 `
 
 export {Bar, Title, MenuWrapper, MenuItem }
+
+// const MenuItem = styled(Link)`
+//     text-decoration: none;
+//     font-size: 1.2rem;
+//     padding: 20px 15px;
+//     border-radius: 5px;
+//     color: white;
+//     cursor: pointer;
+//     transition: background-color 0.3s ease-in-out;
+//     &:hover {
+//         background-color: ${darkred};
+//     }
+//     &:active {
+//         color: black;
+//     }
+// `

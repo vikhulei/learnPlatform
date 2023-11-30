@@ -2,7 +2,8 @@ export const measurements = {
     widthMainWrapper1: "600px",
     widthMainWrapper2: "450px",
     widthMainWrapper3: "300px",
-    marginTopSection: "80px"
+    marginTopSection: "100px",
+    
 }
 
 
